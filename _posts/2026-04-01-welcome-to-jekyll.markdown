@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Welcome to Shourik's Notebook'!"
 date:   2026-04-01
 ---
