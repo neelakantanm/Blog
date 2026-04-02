@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spiking Nerual Networks"
+title: "Interpretable Neural Networks"
 date: 2026-04-01
 ---
 
