@@ -8,5 +8,5 @@ Shourik (also spelled Shurik) is a less known diminutive or pet name for Alexand
 
 Now, I could't simply the name the blog "Shourik" and so I had to extend it with "Notebook" as I intend to maintain this blog page as a notebook for myself. Very often I learn new tools and techniques in math that I find interesting, and then later on I find myslef forgetting it after a few a months. I found this practise unsustainable and wanted to make a change. Hence this blog. I have also been playing around with some experiments using neural networks. Majority of these experiments are failures and hence not worth publishing. I figured that I could keep a record of these "failures" through my blog, which is another reason that motivatd me to start this blog page. 
 
-I should say that by no means do I consider myself to a शौरिक and neither is my math comparable to Grothendieck's. The name should be seen as a reverence towards all the शौरिक mathematicians and thinkers like Grothendieck. 
+I should say that by no means do I consider myself a शौरिक and neither is my math comparable to Grothendieck's. The name should be seen as a reverence towards all the शौरिक mathematicians and thinkers like Grothendieck. 
 
