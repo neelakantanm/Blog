@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bernstein's Inequality"
-date: 2026-04-02
+date: 2026-04-03
 comments: true
 ---
 Bernstein inequalities are one of my favorite inequalies in Fourier analysis. Heuristically the first Bernstein inequality explains what hapens to the $$L^p$$ norm of the function when the function is truncated to its large frequencies. The second Bernstein inequality compares the growth of the $$W^{s,p}$$-Sobolev norm of the function to 
