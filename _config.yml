@@ -21,17 +21,21 @@
 title: Shourik's Notebook
 email: neelakantanm@wisc.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  In this blog I intend to write about math and AI.
+#  In this blog I intend to write about math and AI.
 baseurl: "/Blog" # the subpath of your site, e.g. /blog
 url: "https://neelakantanm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  neelakantanm
 
 # Build settings
-theme: minima
+theme: base
 plugins:
   - jekyll-feed
+markdown: kramdown
 
+kramdown:
+  input: GFM
+  math_engine: mathjax
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
