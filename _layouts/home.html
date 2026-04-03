@@ -2,14 +2,23 @@
 layout: default
 ---
 
-{{ content }}
+<section class="home-content">
+  <h1>Shourik's Notebook</h1>
+  <p>
+    Welcome. Select a post from the left to read it here.
+  </p>
 
-<h2>Posts</h2>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      — {{ post.date | date: "%B %-d, %Y" }}
-    </li>
-  {% endfor %}
-</ul>
+  {% assign latest_post = site.posts.first %}
+  {% if latest_post %}
+    <div class="featured-post">
+      <h2>Latest post</h2>
+      <h3><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h3>
+      <p class="post-date">{{ latest_post.date | date: "%B %-d, %Y" }}</p>
+      {% if latest_post.excerpt %}
+        <div class="excerpt">
+          {{ latest_post.excerpt }}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+</section>

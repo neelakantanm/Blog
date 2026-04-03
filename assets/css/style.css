@@ -1,0 +1,155 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #111;
+  background: #fafafa;
+  line-height: 1.65;
+}
+
+a {
+  color: #0b57d0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-shell {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+.sidebar {
+  background: #f2f2f2;
+  border-right: 1px solid #ddd;
+  padding: 2rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.site-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+.site-title a {
+  color: #111;
+}
+
+.top-links {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.98rem;
+}
+
+.about-box,
+.posts-box {
+  margin-bottom: 1.75rem;
+}
+
+.about-box h2,
+.posts-box h2 {
+  margin-bottom: 0.6rem;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3rem;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-list-item {
+  margin-bottom: 0.9rem;
+}
+
+.post-list-item a {
+  font-weight: 600;
+  display: block;
+}
+
+.post-date {
+  color: #666;
+  font-size: 0.92rem;
+}
+
+.sidebar-footer {
+  font-size: 0.95rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
+
+.sidebar-footer div {
+  margin-bottom: 0.5rem;
+}
+
+.content-pane {
+  padding: 3rem 4rem;
+  max-width: 900px;
+}
+
+.post-article h1,
+.page-article h1,
+.home-content h1 {
+  font-size: 2.4rem;
+  line-height: 1.15;
+  margin-top: 0;
+}
+
+.post-content,
+.page-content,
+.home-content {
+  font-size: 1.08rem;
+}
+
+.featured-post {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.post-content p,
+.post-content ul,
+.post-content ol {
+  max-width: 760px;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 900px) {
+  .site-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .content-pane {
+    padding: 2rem 1.25rem;
+  }
+}

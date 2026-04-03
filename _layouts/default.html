@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
   <script>
     window.MathJax = {
       tex: {
@@ -15,13 +18,49 @@
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-  <header>
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-    <hr>
-  </header>
+  <div class="site-shell">
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <h1 class="site-title">
+          <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        </h1>
 
-  <main>
-    {{ content }}
-  </main>
+        <nav class="top-links">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/about' | relative_url }}">About</a>
+        </nav>
+
+        <section class="about-box">
+          <h2>About</h2>
+          <p>
+            Welcome to <strong>{{ site.title }}</strong>. This is where I write
+            about mathematics, analysis, PDE, and related ideas.
+          </p>
+        </section>
+
+        <section class="posts-box">
+          <h2>Posts</h2>
+          <ul class="post-list">
+            {% for post in site.posts %}
+              <li class="post-list-item">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      </div>
+
+      <footer class="sidebar-footer">
+        <div><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+        <div><strong>GitHub:</strong> <a href="https://github.com/{{ site.github_username }}">@{{ site.github_username }}</a></div>
+        <div><strong>RSS:</strong> <a href="{{ '/feed.xml' | relative_url }}">Subscribe via feed</a></div>
+      </footer>
+    </aside>
+
+    <main class="content-pane">
+      {{ content }}
+    </main>
+  </div>
 </body>
 </html>
