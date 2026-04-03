@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Shourik's Notebook'!"
-date:   2026-04-01
-page.comments: True
+date:   2026-04-02
+jekyll.environment
 ---
 Shourik (also spelled Shurik) is a less known diminutive or pet name for Alexander, which is a friendly and affectionate variation often used by family and friends. Most people are used to the most common diminutive Sasha for Alexander. I haven't heard many people use Shourik/Shurik (at least in the math community). Recently, I learned about this variation from an essay of Valentin Poénaru [Memories of Shourik](https://www.ams.org/notices/200808/tx080800964p.pdf), where he mentions that he called his close friend [Alexander Grothendieck](https://en.wikipedia.org/wiki/Alexander_Grothendieck) by the name Shourik. When I read this post, I was first reminded of the Sanskrit word शौरिक that means courageous and brave. I remember thinking how aptly courageous and brave describes Grothendieck's mathematical practise. I was also searching for a name for my blog post for a while. Once I saw Poénaru's essay I knew I had the word I was looking for. 
 
