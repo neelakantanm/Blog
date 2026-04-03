@@ -2,12 +2,8 @@
 layout: post
 title: "Bernstein's Inequality"
 date: 2026-04-02
----
-
----
-layout: post
-title: "Bernstein's Inequality"
-date: 2026-04-02
+usemathjax: true
+jekyll.environment: True
 ---
 
 Let $P_N$ be the Littlewood--Paley projection to frequency $N$.
