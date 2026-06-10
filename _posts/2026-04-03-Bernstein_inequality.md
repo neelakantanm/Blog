@@ -4,10 +4,15 @@ title: "Bernstein's Inequality"
 date: 2026-04-03
 comments: true
 ---
-Bernstein inequalities are one of my favorite inequalies in Fourier analysis. Heuristically the first Bernstein inequality explains what hapens to the $$L^p$$ norm of the function when the function is truncated to its large frequencies. The second Bernstein inequality compares the growth of the $$W^{s,p}$$-Sobolev norm of the function to 
-Let $$P_N$$ be the Littlewood-Paley projection to frequency $$N$$.
+Bernstein inequalities are one of the most fundamental inequalities in Fourier analysis. The goal of this post is to give a simple proof sketch of the two Bernstein inequalitites, as I believe that every analyst should see the proof at least once in their life.  There is also the classic Bernstein's ineaulity in probability theory [Bernstein's inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)), which isn't related to the one I am discussing here.
 
-**Theorem.** Fix $$N \in 2^{\mathbb{Z}}$$.
+Fourier analysis revolves around decomposing the frequency space in "amenable" pieces. 
+For example, [Littlewood-Paley theory](https://en.wikipedia.org/wiki/Littlewood–Paley_theory) 
+is based on dyadic decomposition of the frequency space.Heuristically the first Bernstein inequality explains what hapens to the $$L^p$$ norm of a function when the function is truncated to its large frequencies $$2^N$$. The second Bernstein inequality says that $$W^{s,p}$$-Sobolev norm of a function truncated to a frequency $$2^N$$ asymptotically grows like $$N^s$$ times the $$L^p$$ norm of the truncated function. 
+
+
+**Theorem.** Fix $$N \in 2^{\mathbb{Z}}$$, and let $$P_N$$ be the Littlewood-Paley projection to frequency $$2^N$$. 
+
 
 1. **Bernstein's inequality I**
 
