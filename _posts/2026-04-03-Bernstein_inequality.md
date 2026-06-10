@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bernstein's Inequality"
+title: "Bernstein's Inequalities"
 date: 2026-04-03
 comments: true
 ---
@@ -186,4 +186,4 @@ N^s \|f_N\|_{L^p}
 \end{align}
 $$
 
-Combining the two inequalities proves the result.
+Combining the two inequalities gives us the required result.
