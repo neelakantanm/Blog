@@ -164,7 +164,7 @@ N^s \|f_N\|_{L^p}.
 \end{align}
 $$
 
-For the reverse inequality, apply the previous estimate with $$-s$$ in place of $$s$$ to $$|\nabla|^s f_N$$:
+For the reverse inequality, apply the previous estimate with $$-s$$ in place of $$s$$ to :
 
 $$
 \begin{align}
