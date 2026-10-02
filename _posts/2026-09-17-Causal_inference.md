@@ -20,7 +20,4 @@ It was truly an enlightening experience learning about the "causal revolution" a
 [^causalungcancer]: See Chapter 5 of Pearl's book to learn about the resolution of this issue using causal diagrams. 
 <img src="{{ '/assets/css/images/rungsofcausality.webp' | relative_url }}" style="display: block; width: 300px; max-width: 100%; height: auto; margin: 1rem auto 0;">
 
-## Causal diagrams
-
-
-## Can LLMs answer questions in rung 2 and 3?
+*This is blog under progress....*
