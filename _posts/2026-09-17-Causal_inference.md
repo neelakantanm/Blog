@@ -8,6 +8,6 @@ I love reading about statistical paradoxes! The usual classics like [Berkskon's 
 
 <img src="{{ '/assets/css/images/thebookofwhy.jpg' | relative_url }}" style="display: block; width: 250px; max-width: 100%; height: auto; margin: 1rem auto 0;">
 
-It was a truly enlightening experience learning about the "causal revolution" as Pearl puts it. Let me start by stating the three rungs of causality. 
+It was a truly enlightening experience learning about the "causal revolution" as Pearl puts it. Let me start by stating the three rungs of causality as defined by Pearl in the book. 
 
-<img src="{{ '/assets/css/images/rungsofcausality.webp' | relative_url }}" style="display: block; width: 250px; max-width: 100%; height: auto; margin: 1rem auto 0;">
+<img src="{{ '/assets/css/images/rungsofcausality.webp' | relative_url }}" style="display: block; width: 300px; max-width: 100%; height: auto; margin: 1rem auto 0;">
