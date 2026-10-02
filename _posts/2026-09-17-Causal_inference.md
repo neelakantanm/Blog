@@ -8,6 +8,6 @@ I love reading about statistical paradoxes! The usual classics like [Berkskon's 
 
 <img src="{{ '/assets/css/images/thebookofwhy.jpg' | relative_url }}" style="display: block; width: 250px; max-width: 100%; height: auto; margin: 1rem auto 0;">
 
-It was a truly enlightening experience learning about the "causal revolution" as Pearl puts it. Let me start by stating the three rungs of causality as defined by Pearl in the book. 
+It was a truly enlightening experience learning about the "causal revolution" as Pearl puts it. Let me start by stating the three rungs of causal inference as defined by Pearl in the book: Rung 1,2 and 3 are "association", "doing" and "imagination" respectively. You might have heard about the common phrase among statisticians: "correlation is not causation". This is the idea that the three rungs try to separate. The first rung is about correlation, i.e., given two random variables $$X$$ and $$Y$$ you can ask questions like $$P(X|Y), P(Y|X)$$ and $$ P(X, Y)$$ (joint distribution). Observe that computing these probabilites don't require you understand if $$X$$ is cause of $$Y$$ (or visa versa) or not.  
 
 <img src="{{ '/assets/css/images/rungsofcausality.webp' | relative_url }}" style="display: block; width: 300px; max-width: 100%; height: auto; margin: 1rem auto 0;">
